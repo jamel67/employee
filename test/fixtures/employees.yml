@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_number: 1
+  employee_name: MyString
+  hours: 1.5
+  date_of_start: 1
+  vacation_time: 1.5
+  personal_time: 1.5
+
+two:
+  employee_number: 1
+  employee_name: MyString
+  hours: 1.5
+  date_of_start: 1
+  vacation_time: 1.5
+  personal_time: 1.5

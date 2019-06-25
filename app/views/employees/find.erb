@@ -1,0 +1,24 @@
+<h1>Employees</h1>
+<table>
+  <tr>
+    <th>Employee number</th>
+    <th>Employee name</th>
+    <th>Hours</th>
+    <th>Date of start</th>
+    <th>Vacation time</th>
+    <th>Personal time</th>
+  </tr>
+
+  <% @employees.each do |employee| %>
+    <tr>
+      <td><%= employee.employee_number %></td>
+      <td><%= employee.employee_name %></td>
+      <td><%= employee.hours %></td>
+      <td><%= employee.date_of_start %></td>
+      <td><%= employee.vacation_time %></td>
+      <td><%= employee.personal_time %></td>
+    </tr>
+    <%end %>
+</table>
+
+<%= link_to 'Back', employees_path %>
